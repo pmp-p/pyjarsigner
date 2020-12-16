@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='pyjarsigner',
-    version='0.2.1',
+    version='0.2.2',
     url='https://github.com/appknox/pyjarsigner',
 
     author='Subho Halder',
@@ -13,7 +13,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     platforms='any',
-    install_requires=['M2Crypto==0.35.2'],
+    install_requires=['M2Crypto==0.37.1'],
     description="Pure Python3 implementation to sign JAR and APK files",
     long_description="pure Python3 implementation to sign JAR and APK files "
         "which was inspired and borrowed from python-javatools",
